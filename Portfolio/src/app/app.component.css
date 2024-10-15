@@ -1,8 +1,9 @@
 .divider{
+  position: fixed;
   display: flexbox;
-  width: 25vw;
+  width: 15vw;
   height: 100vh;
-  margin: 0;
-  padding: 0;
+  top: 0;
+  left: 0;
   background-color: #495057;
 }
