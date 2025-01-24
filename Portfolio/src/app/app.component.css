@@ -12,7 +12,7 @@
 
 }
 .titulo {
-  color: aliceblue;
+  color: white;
   font-family: "Playfair Display", serif;
 }
 .svg-icon {
@@ -23,12 +23,12 @@
   margin-top: 20px;
 }
 
-.testeparallax {
+.resume {
   margin-top: 100vh;
   margin-left: 0;
 
   height:1000px;
-  background-color:grey;
+  background-color:#212529;
   font-size:36px
 }
 
