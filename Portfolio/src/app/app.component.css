@@ -11,7 +11,10 @@
   padding-top: 20px;
 
 }
-
+.titulo {
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+}
 .svg-icon {
   width: 30%;
   height: auto;
