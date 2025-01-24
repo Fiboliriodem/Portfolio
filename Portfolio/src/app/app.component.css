@@ -23,3 +23,12 @@
   margin-top: 20px;
 }
 
+.testeparallax {
+  margin-top: 100vh;
+  margin-left: 0;
+
+  height:1000px;
+  background-color:grey;
+  font-size:36px
+}
+
