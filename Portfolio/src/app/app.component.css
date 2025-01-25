@@ -6,11 +6,25 @@
   width: 8vw;
   height: 100vh;
   top: 0;
-  left: 0;
+  left: calc(-8vw + 15px );
   background-color: #495057;
   padding-top: 20px;
-
+  /* auxilio do hover*/
+  transition: left 0.5s ease;
+  overflow-y: auto;
+  /* glassmorphismo */
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0;
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+.side-bar:hover {
+  left: 0;
+}
+
 .titulo {
   color: white;
   font-family: "Playfair Display", serif;
@@ -25,10 +39,10 @@
 
 .resume {
   margin-top: 100vh;
-  margin-left: 0;
+  margin-left: 1px;
 
   height:1000px;
   background-color:#212529;
-  font-size:36px
+  font-size:30px
 }
 
