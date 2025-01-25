@@ -1,3 +1,15 @@
+/*
+F8F9FA - branco+
+E9ECEF - branco
+DEE2E6 - branco-
+CED4DA - cinza+
+ADB5BD - cinza
+6C757D - cinza-
+495057 - preto+
+343A40 - preto
+212529 - preto-
+*/
+
 .side-bar {
   position: fixed;
   display: flex;
@@ -39,13 +51,13 @@
 }
 
 .titulo {
-  color: white;
+  color: #F8F9FA;
   font-family: "Playfair Display", serif;
 }
 .svg-icon {
   width: 30%;
   height: auto;
-  fill: white;
+  fill: #F8F9FA;
   margin-left: 35%;
   margin-top: 20px;
 }
@@ -59,6 +71,7 @@
   font-size:30px;
   box-shadow: 0px -8px 50px -10px;
   animation: redcarpet 1.5s;
+  font-family: "Playfair Display", serif;
 }
 
 @keyframes redcarpet {
