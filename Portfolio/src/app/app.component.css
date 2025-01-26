@@ -97,9 +97,28 @@ ADB5BD - cinza
 }
 
 .card {
-  display: flex;
+  width: 100vw;
   flex-direction: column;
-
 }
+
+.sbar {
+  width: 100%;
+  background-color: #ddd;
+  margin-bottom: 1em;
+}
+
+.prog {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  color: #E9ECEF;
+}
+.html {width: 80%; background-color: #495057;}
+.css {width: 90%; background-color: #495057;}
+.angular {width: 80%; background-color: #495057;}
+.node {width: 60%; background-color: #495057;}
+.javascript {width: 70%; background-color: #495057;}
+.godot {width:50%; background-color: #495057;}
+
+
 
 
