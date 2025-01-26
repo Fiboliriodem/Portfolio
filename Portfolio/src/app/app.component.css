@@ -50,6 +50,7 @@ ADB5BD - cinza
 .titulo {
   color: #F8F9FA;
   font-family: "Playfair Display", serif;
+  font-size: 1em;
 }
 
 .svg-icon {
@@ -66,10 +67,10 @@ ADB5BD - cinza
   width: 100vw;
   height: 100vh;
   background-color:#212529;
-  font-size:30px;
   box-shadow: 0px -8px 50px -10px #212529;
   animation: redcarpet 1.5s;
   font-family: "Playfair Display", serif;
+  font-size: 1.5em;
   color: #DEE2E6;
   overflow-y: auto;
   overflow-x: hidden;
@@ -87,23 +88,18 @@ ADB5BD - cinza
 }
 
 .skillbox {
-  width: 80vw;
   display: flex;
   flex-direction: row;
   padding-top: 10vh;
   margin-left: 20vw;
   margin-right: 20vw;
+  justify-content:space-evenly;
 }
 
-.coding {
+.card {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+
 }
 
-.languages {
-  display: flex;
-  flex-direction: column;
-  align-items:flex-end;
-}
 
