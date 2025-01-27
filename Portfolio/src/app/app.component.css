@@ -74,6 +74,7 @@ ADB5BD - cinza
   color: #DEE2E6;
   overflow-y: auto;
   overflow-x: hidden;
+  background-image: radial-gradient(#181A1C,#242629);
 
 }
 @keyframes redcarpet {
