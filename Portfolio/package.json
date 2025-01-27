@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "ghpbuild": "ng build --configuration production --base-href 'https://fiboliriodem.github.io/Portfolio/'",
+    "ghpdeploy": "npx angular-cli-ghpages --dir=dist/Portfolio/browser --no-silent"
   },
   "private": true,
   "dependencies": {
