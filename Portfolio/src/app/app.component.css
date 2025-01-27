@@ -7,7 +7,7 @@ ADB5BD - cinza
 6C757D - cinza-
 495057 - preto+
 343A40 - preto
-212529 - preto-
+181A1C - preto-
 */
 
 .side-bar {
@@ -65,9 +65,9 @@ ADB5BD - cinza
   align-items: center;
   margin-top: 100vh;
   width: 100vw;
-  height: 100vh;
-  background-color:#212529;
-  box-shadow: 0px -8px 50px -10px #212529;
+  height: 100%;
+  background-color:#181A1C;
+  box-shadow: 0px -8px 50px -10px #181A1C;
   animation: redcarpet 1.5s;
   font-family: "Playfair Display", serif;
   font-size: 1.5em;
@@ -93,7 +93,7 @@ ADB5BD - cinza
   padding-top: 10vh;
   margin-left: 20vw;
   margin-right: 20vw;
-  justify-content:space-evenly;
+  justify-content:space-around;
 }
 
 .card {
@@ -101,24 +101,25 @@ ADB5BD - cinza
   flex-direction: column;
 }
 
-.sbar {
-  width: 100%;
-  background-color: #ddd;
-  margin-bottom: 1em;
+.iconrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 1em;
 }
-
-.prog {
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
-  color: #E9ECEF;
+.icons {
+height: 8%;
+width: 12%;
+background-color: #DEE2E6;
+border-radius: 20%;
+transition: 0.5s ease;
 }
-.html {width: 80%; background-color: #495057;}
-.css {width: 90%; background-color: #495057;}
-.angular {width: 80%; background-color: #495057;}
-.node {width: 60%; background-color: #495057;}
-.javascript {width: 70%; background-color: #495057;}
-.godot {width:50%; background-color: #495057;}
-
+.icons:hover {
+  height: 10%;
+  width: 14%;
+  transition: 0.5s ease;
+  background-color: #495057;
+}
 
 
 
