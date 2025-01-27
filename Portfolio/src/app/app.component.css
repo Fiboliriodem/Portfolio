@@ -93,7 +93,7 @@ ADB5BD - cinza
   padding-top: 10vh;
   margin-left: 20vw;
   margin-right: 20vw;
-  justify-content:space-around;
+  justify-content:space-evenly;
 }
 
 .card {
