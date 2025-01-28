@@ -131,7 +131,7 @@ transition: 0.5s ease;
     display:flex;
   }
   #contato {
-    font-size: 1em;
+    text-align: center;
   }
   .iconrow{
     padding-bottom: 3em;
