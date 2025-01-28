@@ -120,3 +120,16 @@ transition: 0.5s ease;
 }
 
 
+@media screen and (max-width: 768px) {
+  #filler {
+    display: none;
+  }
+  .skillbox {
+    flex-direction: column;
+  }
+  .iconrow {
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
