@@ -131,6 +131,13 @@ transition: 0.5s ease;
     display:flex;
   }
   #contato {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 0.7em;
+  }
+  .textbox {
     text-align: center;
   }
   .iconrow{
@@ -153,6 +160,7 @@ transition: 0.5s ease;
     flex-direction: column;
   }
   .card {
+    text-align: center;
     width: 100%;
   }
 
