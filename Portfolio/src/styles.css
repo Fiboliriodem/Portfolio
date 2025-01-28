@@ -8,5 +8,7 @@ body{
   background-image: url("../../Portfolio/dist/portfolio/browser/Fundo.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+html {
   scroll-behavior: smooth;
 }
