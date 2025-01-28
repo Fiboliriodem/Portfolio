@@ -118,18 +118,37 @@ transition: 0.5s ease;
   width: 16%;
   transition: 0.5s ease;
 }
-
+#mobile {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
-  #filler {
+  #computer {
     display: none;
   }
-  .skillbox {
-    flex-direction: column;
+  #mobile {
+    display:flex;
   }
-  .iconrow {
+  .iconrow{
+    padding-bottom: 3em;
+  }
+  .icons {
+    height: 15%;
+    width: 22%;
+  }
+  .icons:hover {
+    height: 20%;
+    width: 26%;
+  }
+  .side-bar {
+    display:none;
+  }
+  .skillbox {
     align-items: center;
     flex-direction: column;
+  }
+  .card {
+    width: 100%;
   }
 
 }
