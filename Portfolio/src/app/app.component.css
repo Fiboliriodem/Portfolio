@@ -135,7 +135,13 @@ transition: 0.5s ease;
     margin-left: 0;
     margin-right: 0;
     text-align: center;
+    
+  }
+  #email {
     font-size: 0.7em;
+  }
+  #linhamobile {
+    width:50%;
   }
   .textbox {
     text-align: center;
